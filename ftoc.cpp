@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 		// On some operating systems, argv[0] can end up as an empty string instead of the program's name.
 		// We'll conditionalize our response on whether argv[0] is empty or not.
 		if (argv[0]){
-            std::cout << "CfrF (Klaminite 2019) \nCommand Line Tool for Converting to Celcius or Farenhiet\n\n";
+            std::cout << "CfrF (lcityd 2019) \nCommand Line Tool for Converting to Celcius or Farenhiet\n\n";
             std::cout << "Enter in the value you are given from any instrument after C or F, and it will convert to the chosen value";
 			std::cout << "\nUsage: <Celcius (C) or Farenheit (F)> <value converting from>" << '\n';
         }
